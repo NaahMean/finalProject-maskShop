@@ -1,0 +1,6 @@
+features list:
+-dropdown menus below title bar
+-sliding images in the body section
+-clickable buttons on the left column that will open up images
+-clickable buttons on the right side column that will open tutorial (Youtube videos or simple text file) on the right side.
+-box on the bottom with the google maps
