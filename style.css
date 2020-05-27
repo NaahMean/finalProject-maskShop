@@ -1,0 +1,246 @@
+#heading {
+    /*background-color: lightcoral; */
+    background-image: url(adjustableMask.jpg);
+    font-size: 40px;
+    font-weight: bolder;
+    color: grey;
+    padding-left: 10%;
+    padding-top: 3px;
+    height: 22vh;
+    display: flex;
+}
+
+#contacts {
+    font-size: 35%;
+    margin-left: 70%;
+    margin-top: 40px;
+    color: black;
+}
+
+.menuBar {
+    display: flex;
+    background-color: wheat;
+}
+
+/*.menuBar span {*/
+.dropbutton {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 25px;
+    /*border: 2px solid rgb(126, 103, 148);*/
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    /*background-color: rgb(64, 218, 100);*/
+    /*box-shadow: 15px tomato ;*/
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropbutton:hover, .dropbutton:focus {
+    background-color: rgb(113, 224, 191);
+}
+
+.maskMenu {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*.scarfMenu {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+*/
+.gallery {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.gallery a {
+    display: block;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid rgb(126, 103, 148);
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    /*background-color: rgb(64, 218, 100);*/
+    border-radius: 5px;
+}
+
+.maskMenu a:hover {
+/*    background-color: rgba(0,0,0,0.2);*/
+    background-color: rgb(113, 224, 191);
+}
+
+.show {
+    display: block;
+}
+
+/*
+#masktypes {
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid rgb(126, 103, 148);
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    background-color: rgb(64, 218, 100);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+
+#scarfTypes {
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid rgb(126, 103, 148);
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    background-color: rgb(64, 218, 100);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+
+#gaiterTypes {
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid rgb(126, 103, 148);
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    background-color: rgb(64, 218, 100);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+
+#bandanaTypes {
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid rgb(126, 103, 148);
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    background-color: rgb(64, 218, 100);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+
+*/
+
+
+/*
+.menuBar span:hover #scarfTypes {
+    display: block;
+}
+
+.menuBar span:hover #gaiterTypes {
+    display: block;
+}
+
+.menuBar span:hover #bandanaTypes {
+    display: block;
+}
+*/
+
+
+
+/*styling carousel hereon below */
+.carousel {
+    margin-top:5%;
+    margin-left:10%;
+}
+.carousel button{
+    float:left;
+    height:20px;
+}
+.carousel img{
+    float:left;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.tutorial {
+    margin-left: 80px;
+    position: relative;
+}
+
+
+/*image popup and close*/
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 40%; /* Full width */
+    height: 40%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+   
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+ 
