@@ -49,7 +49,7 @@ function prev() {
 }
 
 /* implement pop up image */
-
+/*
 function showMyImage() {
     var img = document.getElementById('image-holder');
     img.src = 'mask1.jpg';

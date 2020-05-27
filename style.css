@@ -166,20 +166,9 @@
     margin-right:10px;
     margin-left:10px;
 }
-
+/*
 .tutorial {
     margin-left: 80px;
-    position: relative;
-}
-
-/*box for pop-up image */
-#image-holder {
-    width: 500px;
-    height: auto;
     position: absolute;
-    left: 300px;
-    top: 200px; /* Or perhaps different coordinates */
-    display: none;
-  }
-  
-/*end of box for pop-up image */
+}
+*/
