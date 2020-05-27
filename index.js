@@ -1,19 +1,14 @@
-console.log("hello world")
+// opens dropdown on click and closes back on second click  or click outside box 
 
-/* opens link on clink and closes back and second click */
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
 function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("types").classList.toggle("show");
 }
 
-// Close the dropdown if the user clicks outside of it
+
 window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
+  if (!event.target.matches('.dropbutton')) {
+    var dropdowns = document.getElementsByClassName("Gallery");
+    for (var i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
@@ -21,4 +16,3 @@ window.onclick = function(event) {
     }
   }
 }
-</script>

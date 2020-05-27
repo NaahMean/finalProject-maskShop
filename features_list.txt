@@ -8,3 +8,5 @@ features list:
 
 20200525:
 on dropdown menu, implement dropdown arrows
+
+floating box with image on click on menu button

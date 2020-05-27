@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./style.css" />
 
     <title> Mockup5 </title>
-    <script src="./index.js"></script>
   </head>
 <body>
   <header>
@@ -21,14 +20,42 @@
     </div>
   </header>
 
-  <div id = "menuBar">
-    <span>Masks
-      <div id = maskTypes>
-        <p>Type 1</p>
-        <p>Type 2</p>
-        <p>Type 3</p>
-      </div>
-    </span>
+  <div class = "menuBar">
+    <div class = "maskMenu">
+      <button onclick="myFunction()" class="dropbutton">Masks</button>
+      <span id = "types" class="gallery1">
+        <a href="#type1-m">Type 1</a>
+        <a href="#type2-m">Type 2</a>
+        <a href="#type3-m">Type 3</a>
+      </span>
+    </div>
+    <div class = "scarfMenu">
+      <button onclick="myFunction()" class="dropbutton">Scarves</button>
+      <span id = "types" class="gallery2">
+        <a href="#type1-s">Type a</a>
+        <a href="#type2-s">Type b</a>
+        <a href="#type3-s">Type c</a>
+      </span>
+    </div>
+    <div class = "gaiterMenu">
+      <button onclick="myFunction()" class="dropbutton">Gaiter</button>
+      <span id = "types" class="gallery3">
+        <a href="#type1-g">Type i</a>
+        <a href="#type2-g">Type ii</a>
+        <a href="#type3-g">Type iii</a>
+      </span>
+    </div>
+    <div class = "bandanaMenu">
+      <button onclick="myFunction()" class="dropbutton">Bandanas</button>
+      <span id = "types" class="gallery4">
+        <a href="#type1-b">Type one</a>
+        <a href="#type2-b">Type two</a>
+        <a href="#type3-b">Type three</a>
+      </span>
+    </div>
+      
+<!--
+
     <span>Scarves
       <div id = scarfTypes>
         <p>Type a</p>
@@ -49,13 +76,17 @@
         <p>Type two</p>
         <p>Type three</p>
       </div>
-    </span>
+    </span> -->
+
+
   </div>
+
   
   <section>
 
   </section>
 
+  <script src="./index.js"></script>
 </body>
 </html>
 

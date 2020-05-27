@@ -17,13 +17,13 @@
     color: black;
 }
 
-#menuBar {
+.menuBar {
     display: flex;
     background-color: wheat;
-    margin: 0;
 }
 
-#menuBar span {
+/*.menuBar span {*/
+.dropbutton {
     position: relative;
     display: inline-block;
     margin-top: 15px;
@@ -37,10 +37,47 @@
     background-color: rgb(64, 218, 100);
     box-shadow: 15px tomato ;
     border-radius: 5px;
+    cursor: pointer;
 }
 
+.dropbutton:hover, .dropbutton:focus {
+    background-color: rgb(113, 224, 191);
+}
 
-#maskTypes {
+.maskMenu {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.scarfMenu {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.gallery {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.gallery a {
+    display: block;
+}
+
+.maskMenu a:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.show {
+    display: block;
+}
+
+/*
+#masktypes {
     font-weight: bolder;
     font-size: 20px;
     border: 2px solid rgb(126, 103, 148);
@@ -88,18 +125,19 @@
     position: absolute;
 }
 
-#menuBar span:hover #maskTypes {
+*/
+
+
+/*
+.menuBar span:hover #scarfTypes {
     display: block;
 }
 
-#menuBar span:hover #scarfTypes {
+.menuBar span:hover #gaiterTypes {
     display: block;
 }
 
-#menuBar span:hover #gaiterTypes {
+.menuBar span:hover #bandanaTypes {
     display: block;
 }
-
-#menuBar span:hover #bandanaTypes {
-    display: block;
-}
+*/
