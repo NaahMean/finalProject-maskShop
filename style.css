@@ -31,11 +31,11 @@
     margin-bottom: 15px;
     font-weight: bolder;
     font-size: 25px;
-    border: 2px solid rgb(126, 103, 148);
+    /*border: 2px solid rgb(126, 103, 148);*/
     padding: 5px;
     color:rgb(85, 84, 84);
-    background-color: rgb(64, 218, 100);
-    box-shadow: 15px tomato ;
+    /*background-color: rgb(64, 218, 100);*/
+    /*box-shadow: 15px tomato ;*/
     border-radius: 5px;
     cursor: pointer;
 }
@@ -50,12 +50,12 @@
     margin-left: 20px;
 }
 
-.scarfMenu {
+/*.scarfMenu {
     position: relative;
     display: inline-block;
     margin-left: 20px;
 }
-
+*/
 .gallery {
     display: none;
     position: absolute;
@@ -66,10 +66,18 @@
 
 .gallery a {
     display: block;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid rgb(126, 103, 148);
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    /*background-color: rgb(64, 218, 100);*/
+    border-radius: 5px;
 }
 
 .maskMenu a:hover {
-    background-color: rgba(0,0,0,0.2);
+/*    background-color: rgba(0,0,0,0.2);*/
+    background-color: rgb(113, 224, 191);
 }
 
 .show {
@@ -141,3 +149,37 @@
     display: block;
 }
 */
+
+
+
+/*styling carousel hereon below */
+.carousel {
+    margin-top:5%;
+    margin-left:10%;
+}
+.carousel button{
+    float:left;
+    height:20px;
+}
+.carousel img{
+    float:left;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.tutorial {
+    margin-left: 80px;
+    position: relative;
+}
+
+/*box for pop-up image */
+#image-holder {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 300px;
+    top: 200px; /* Or perhaps different coordinates */
+    display: none;
+  }
+  
+/*end of box for pop-up image */
