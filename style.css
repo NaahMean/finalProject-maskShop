@@ -1,0 +1,105 @@
+#heading {
+    /*background-color: lightcoral; */
+    background-image: url(adjustableMask.jpg);
+    font-size: 40px;
+    font-weight: bolder;
+    color: grey;
+    padding-left: 10%;
+    padding-top: 3px;
+    height: 22vh;
+    display: flex;
+}
+
+#contacts {
+    font-size: 35%;
+    margin-left: 70%;
+    margin-top: 40px;
+    color: black;
+}
+
+#menuBar {
+    display: flex;
+    background-color: wheat;
+    margin: 0;
+}
+
+#menuBar span {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 2px solid rgb(126, 103, 148);
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    background-color: rgb(64, 218, 100);
+    box-shadow: 15px tomato ;
+    border-radius: 5px;
+}
+
+
+#maskTypes {
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid rgb(126, 103, 148);
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    background-color: rgb(64, 218, 100);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+
+#scarfTypes {
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid rgb(126, 103, 148);
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    background-color: rgb(64, 218, 100);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+
+#gaiterTypes {
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid rgb(126, 103, 148);
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    background-color: rgb(64, 218, 100);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+
+#bandanaTypes {
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid rgb(126, 103, 148);
+    padding: 5px;
+    color:rgb(85, 84, 84);
+    background-color: rgb(64, 218, 100);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+
+#menuBar span:hover #maskTypes {
+    display: block;
+}
+
+#menuBar span:hover #scarfTypes {
+    display: block;
+}
+
+#menuBar span:hover #gaiterTypes {
+    display: block;
+}
+
+#menuBar span:hover #bandanaTypes {
+    display: block;
+}
