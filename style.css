@@ -84,85 +84,11 @@
     display: block;
 }
 
-<<<<<<< HEAD
-/*
-#masktypes {
-    font-weight: bolder;
-    font-size: 20px;
-    border: 2px solid rgb(126, 103, 148);
-    padding: 5px;
-    color:rgb(85, 84, 84);
-    background-color: rgb(64, 218, 100);
-    border-radius: 5px;
-    display: none;
-    position: absolute;
-}
-
-#scarfTypes {
-    font-weight: bolder;
-    font-size: 20px;
-    border: 2px solid rgb(126, 103, 148);
-    padding: 5px;
-    color:rgb(85, 84, 84);
-    background-color: rgb(64, 218, 100);
-    border-radius: 5px;
-    display: none;
-    position: absolute;
-}
-
-#gaiterTypes {
-    font-weight: bolder;
-    font-size: 20px;
-    border: 2px solid rgb(126, 103, 148);
-    padding: 5px;
-    color:rgb(85, 84, 84);
-    background-color: rgb(64, 218, 100);
-    border-radius: 5px;
-    display: none;
-    position: absolute;
-}
-
-#bandanaTypes {
-    font-weight: bolder;
-    font-size: 20px;
-    border: 2px solid rgb(126, 103, 148);
-    padding: 5px;
-    color:rgb(85, 84, 84);
-    background-color: rgb(64, 218, 100);
-    border-radius: 5px;
-    display: none;
-    position: absolute;
-}
-
-*/
-
-
-/*
-.menuBar span:hover #scarfTypes {
-    display: block;
-}
-
-.menuBar span:hover #gaiterTypes {
-    display: block;
-}
-
-.menuBar span:hover #bandanaTypes {
-    display: block;
-}
-*/
-
-
-=======
->>>>>>> simplecopy
 
 /*styling carousel hereon below */
 .carousel {
     margin-top:5%;
-<<<<<<< HEAD
-    margin-left:10%;
-=======
     margin-left:30%;;
->>>>>>> simplecopy
 }
 .carousel button{
     float:left;
@@ -174,15 +100,6 @@
     margin-left:10px;
 }
 
-<<<<<<< HEAD
-.tutorial {
-    margin-left: 80px;
-    position: relative;
-}
-
-
-/*image popup and close*/
-=======
 body{
     background-color: rgb(111, 231, 231);
 }
@@ -193,37 +110,15 @@ body{
     padding-top: 10px;
 }
 
->>>>>>> simplecopy
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
-<<<<<<< HEAD
-=======
     margin-left: 80px;
->>>>>>> simplecopy
   }
   
   #myImg:hover {opacity: 0.7;}
   
-<<<<<<< HEAD
-  /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 40%; /* Full width */
-    height: 40%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-  }
-  
-  /* Modal Content (image) */
-=======
   
   .modal {
     display: none; 
@@ -240,7 +135,6 @@ body{
   }
   
 
->>>>>>> simplecopy
   .modal-content {
     margin: auto;
     display: block;
@@ -248,11 +142,7 @@ body{
     max-width: 700px;
   }
   
-<<<<<<< HEAD
-  /* Caption of Modal Image */
-=======
 
->>>>>>> simplecopy
   #caption {
     margin: auto;
     display: block;
@@ -264,21 +154,13 @@ body{
     height: 150px;
   }
   
-<<<<<<< HEAD
-  /* Add Animation */
-=======
   
->>>>>>> simplecopy
   .modal-content, #caption {  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
   }
-<<<<<<< HEAD
-   
-  /* The Close Button */
-=======
   
   @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
@@ -291,7 +173,6 @@ body{
   }
   
  
->>>>>>> simplecopy
   .close {
     position: absolute;
     top: 15px;
@@ -309,11 +190,7 @@ body{
     cursor: pointer;
   }
   
-<<<<<<< HEAD
- 
-=======
   footer{
       text-align: center;
       margin-top: 20px;
   }
->>>>>>> simplecopy
