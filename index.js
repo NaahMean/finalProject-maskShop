@@ -17,8 +17,11 @@ window.onclick = function(event) {
   }
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> simplecopy
 // to implement sliders
 
 var images = [
@@ -47,3 +50,28 @@ function prev() {
     }
     slider.src = images[num];
 }
+<<<<<<< HEAD
+=======
+
+/* implement pop up image */
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+>>>>>>> simplecopy

@@ -4,3 +4,9 @@ features list:
 -clickable buttons on the left column that will open up images
 -clickable buttons on the right side column that will open tutorial (Youtube videos or simple text file) on the right side.
 -box on the bottom with the google maps
+
+
+20200525:
+on dropdown menu, implement dropdown arrows
+
+floating box with image on click on menu button

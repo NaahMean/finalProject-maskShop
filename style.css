@@ -84,6 +84,7 @@
     display: block;
 }
 
+<<<<<<< HEAD
 /*
 #masktypes {
     font-weight: bolder;
@@ -151,11 +152,17 @@
 */
 
 
+=======
+>>>>>>> simplecopy
 
 /*styling carousel hereon below */
 .carousel {
     margin-top:5%;
+<<<<<<< HEAD
     margin-left:10%;
+=======
+    margin-left:30%;;
+>>>>>>> simplecopy
 }
 .carousel button{
     float:left;
@@ -167,6 +174,7 @@
     margin-left:10px;
 }
 
+<<<<<<< HEAD
 .tutorial {
     margin-left: 80px;
     position: relative;
@@ -174,14 +182,31 @@
 
 
 /*image popup and close*/
+=======
+body{
+    background-color: rgb(111, 231, 231);
+}
+
+#instructions{
+    clear: both;
+    margin:5%;
+    padding-top: 10px;
+}
+
+>>>>>>> simplecopy
 #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+<<<<<<< HEAD
+=======
+    margin-left: 80px;
+>>>>>>> simplecopy
   }
   
   #myImg:hover {opacity: 0.7;}
   
+<<<<<<< HEAD
   /* The Modal (background) */
   .modal {
     display: none; /* Hidden by default */
@@ -198,6 +223,24 @@
   }
   
   /* Modal Content (image) */
+=======
+  
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+  }
+  
+
+>>>>>>> simplecopy
   .modal-content {
     margin: auto;
     display: block;
@@ -205,7 +248,11 @@
     max-width: 700px;
   }
   
+<<<<<<< HEAD
   /* Caption of Modal Image */
+=======
+
+>>>>>>> simplecopy
   #caption {
     margin: auto;
     display: block;
@@ -217,15 +264,34 @@
     height: 150px;
   }
   
+<<<<<<< HEAD
   /* Add Animation */
+=======
+  
+>>>>>>> simplecopy
   .modal-content, #caption {  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
   }
+<<<<<<< HEAD
    
   /* The Close Button */
+=======
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+ 
+>>>>>>> simplecopy
   .close {
     position: absolute;
     top: 15px;
@@ -243,4 +309,11 @@
     cursor: pointer;
   }
   
+<<<<<<< HEAD
  
+=======
+  footer{
+      text-align: center;
+      margin-top: 20px;
+  }
+>>>>>>> simplecopy
