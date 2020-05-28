@@ -19,104 +19,57 @@
       </div>
     </div>
   </header>
-
-  <section>
+<section>
   <div class = "menuBar">
     <div class = "maskMenu">
       <button onclick="myFunction()" class="dropbutton">Masks</button>
-      <span id = "types" class="gallery">
+      <span id = "types" class="gallery">        
         <a href="#type1-m">Type 1</a>
         <a href="#type2-m">Type 2</a>
         <a href="#type3-m">Type 3</a>
       </span>
     </div> 
   </div>
-  </section>  
-    <!--
-    <div class = "scarfMenu">
-      <button onclick="myFunction()" class="dropbutton">Scarves</button>
-      <span id = "types" class="gallery">
-        <a href="#type1-s">Type a</a>
-        <a href="#type2-s">Type b</a>
-        <a href="#type3-s">Type c</a>
-      </span>
-    </div>
-    <div class = "gaiterMenu">
-      <button onclick="myFunction()" class="dropbutton">Gaiter</button>
-      <span id = "types" class="gallery">
-        <a href="#type1-g">Type i</a>
-        <a href="#type2-g">Type ii</a>
-        <a href="#type3-g">Type iii</a>
-      </span>
-    </div>
-    <div class = "bandanaMenu">
-      <button onclick="myFunction()" class="dropbutton">Bandanas</button>
-      <span id = "types" class="gallery">
-        <a href="#type1-b">Type one</a>
-        <a href="#type2-b">Type two</a>
-        <a href="#type3-b">Type three</a>
-      </span>
-    </div> -->
-      
-<!--
 
-    <span>Scarves
-      <div id = scarfTypes>
-        <p>Type a</p>
-        <p>Type b</p>
-        <p>Type c</p>
-      </div>
-    </span>
-    <span>Gaiters
-      <div id = gaiterTypes>
-        <p>Type i</p>
-        <p>Type ii</p>
-        <p>Type iii</p>
-      </div>
-    </span>  
-    <span>Bandanas
-      <div id = bandanaTypes>
-        <p>Type one</p>
-        <p>Type two</p>
-        <p>Type three</p>
-      </div>
-    </span> -->
-
-
-  <section>
-    <div>
-        <div class = "carousel">
-          <button onclick="prev()"> prev </button>
-            <img id="slider" src="mask2.jpg" alt="cloth masks" width="400px" height="300px"/>
-          <button onclick="next()"> next </button>
-        </div>
-    </div>
-  </section>
-
-  <section>
-    
-  </section>
-<!--
-  <div class = "tutorial">
-    <iframe width="420" height="315"
-      src="https://www.youtube.com/watch?v=iDj4ly4qPAY">
-    </iframe>
-  </div>
-
-
-  <div class = "map">
-
-  </div>
--->
-<!--
   <div>
-    <a href="#" onclick="showMyImage();">Click here to open this image</a>
-      . . .
-    <img id="image-holder" alt="">
-    <span class="close"> &times; </span>
+    <div class = "carousel">
+      <button onclick="prev()"> prev </button>
+        <img id="slider" src="mask2.jpg" alt="cloth masks" width="400px" height="300px"/>
+      <button onclick="next()"> next </button>
+    </div>
   </div>
-end implement pop up image
--->
+
+  <div id = "instructions">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae 
+    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+  </div>
+</section>
+
+
+<section id = "popupimage">
+  <p>Simple cloth Mask </p>
+  <img id="myImg" src="mask1.jpg" alt="mask" style="width:100%;max-width:300px">
+
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+
+</section>
+
+<br><br>
+
+<footer>
+---- maskshop footer  -----
+</footer>
 
 <script src="./index.js"></script>
 
